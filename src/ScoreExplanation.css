@@ -1,0 +1,80 @@
+.score-page {
+  font-family: "Jost", sans-serif;
+}
+
+.score-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.score-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  font-family: "EB Garamond", serif; /* Updated font family and size */
+  color: #1d3d42;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #555;
+}
+
+.key-factors-list,
+.example-list {
+  list-style: decimal;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.formula-box {
+  background-color: #e8f4fd;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  border-left: 4px solid #007bff;
+  margin-bottom: 20px;
+  font-family: "Courier New", monospace;
+}

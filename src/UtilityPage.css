@@ -1,0 +1,352 @@
+/* General Styles */
+body {
+  font-family: "Jost", sans-serif;
+  background-color: #ebf3f2;
+  margin: 0;
+  padding: 0;
+}
+
+.utility-page {
+  font-family: "Jost", sans-serif;
+  background-color: #ebf3f2;
+  padding: 20px;
+  line-height: 1.4;
+}
+/* Contaminants Section */
+.contaminant-card {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 20% opacity */
+  padding: 6px 12px; /* Reduced top and bottom padding */
+  border-radius: 8px;
+  border: 3px solid rgba(29, 64, 63, 0.2); /* Stroke with 20% opacity */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Solutions Section */
+.solution-card {
+  padding: 6px 16px; /* Reduced top and bottom padding */
+  /* margin: 8px 0; */
+  background-color: white;
+  border: 1px solid rgba(29, 64, 63, 0.2);
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Next Steps Section */
+.step-card {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 20% opacity */
+  padding: 10px 15px; /* Reduced top and bottom padding */
+  border-radius: 8px;
+  border: 3px solid rgba(29, 64, 63, 0.2); /* Stroke with 20% opacity */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px; /* Adjusted for spacing between cards */
+}
+
+/* Ensure uniform styles across cards */
+.top-row,
+.solution-row,
+.benefit-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.solution-row span,
+.benefit-value {
+  font-size: 0.9em;
+}
+
+/* Header Section */
+.utility-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.back-button {
+  border: none;
+  background: none;
+  color: #1d3d42;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.zip-code {
+  text-align: right;
+}
+
+.zip-code strong {
+  font-size: 1.2em;
+}
+
+/* Summary Section */
+.utility-summary {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 20% opacity */
+  padding: 16px;
+  border-radius: 8px;
+  border: 3px solid rgba(29, 64, 63, 0.2); /* Stroke with 20% opacity */
+  margin-top: 16px;
+}
+
+.utility-summary h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.8em;
+  color: #1d3d42;
+  margin-bottom: 8px;
+}
+
+.utility-summary p {
+  font-size: 1em;
+  color: #592a28;
+}
+
+.grade h2 {
+  font-family: "EB Garamond", serif;
+  color: #592a28;
+  font-size: 2em;
+  margin: 0;
+}
+
+.grade span {
+  font-family: "Jost", sans-serif;
+  font-size: 0.9em;
+  color: #b3c265;
+}
+
+.summary-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+}
+
+.summary-list li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  padding: 4px 0;
+}
+
+/* Contaminants Section */
+.contaminants-section {
+  margin-top: 16px;
+}
+
+.contaminants-section h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.5em;
+  margin-bottom: 12px;
+  color: #592a28;
+}
+
+.contaminants-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contaminant-card {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 20% opacity */
+  padding: 8px 12px; /* Reduced top and bottom padding */
+  border-radius: 8px;
+  border: 3px solid rgba(29, 64, 63, 0.2); /* Stroke with 20% opacity */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contaminant-card h3 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.2em;
+  color: #1d3d42;
+}
+
+.times-above-guideline {
+  background-color: #ff6666; /* Red for contaminants */
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.9em;
+  font-family: "Jost", sans-serif;
+  font-weight: normal; /* Match contaminant text style */
+}
+
+.utility-level {
+  font-family: "Jost", sans-serif;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 4px;
+}
+
+.effect {
+  font-family: "Jost", sans-serif;
+  font-size: 0.9em;
+  color: #592a28;
+  margin-top: 4px;
+}
+
+/* Solutions Section */
+.solutions-section {
+  margin-top: 20px;
+}
+
+.solutions-section h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.5em;
+  color: #592a28;
+  margin-bottom: 12px;
+}
+
+.solution-card {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 20% opacity */
+  padding: 12px;
+  border-radius: 8px;
+  border: 3px solid rgba(29, 64, 63, 0.2); /* Stroke with 20% opacity */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+}
+
+/* Next Steps Section */
+.next-steps-section {
+  margin-top: 20px;
+}
+
+.next-steps-section h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.5em;
+  color: #592a28;
+  margin-bottom: 15px;
+}
+
+.step-card {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 20% opacity */
+  padding: 15px;
+  border-radius: 8px;
+  border: 3px solid rgba(29, 64, 63, 0.2); /* Stroke with 20% opacity */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.garamond-heading {
+  font-family: "EB Garamond", serif;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.benefits-table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.benefit-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefit-value {
+  background-color: white;
+  border: 3px solid rgba(29, 64, 63, 0.2); /* Stroke with 20% opacity */
+  color: #1d3d42;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.9em;
+  font-family: "Jost", sans-serif;
+  font-weight: normal; /* Match contaminant text style */
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.product img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.product p {
+  font-size: 0.9em;
+  color: #666;
+}
+.solution-card {
+  padding: 8px 16px;
+  margin: 8px 0;
+  background-color: white;
+  border: 1px solid rgba(29, 64, 63, 0.2);
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.solution-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1d403f;
+  margin-bottom: 8px;
+  font: 1.2em "EB Garamond", serif;
+}
+
+.solution-pain {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.solution-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.solution-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.solution-row span {
+  font-size: 0.95em;
+  color: #333;
+}
+
+.solution-value {
+  font-weight: bold;
+  color: #d9534f; /* Red for high-risk values */
+}
+.product-link {
+  font-size: 0.9em;
+  color: #1d3d42;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.product-link:hover {
+  text-decoration: underline;
+}
+.product-image {
+  width: 150px; /* Adjust width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px;
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
